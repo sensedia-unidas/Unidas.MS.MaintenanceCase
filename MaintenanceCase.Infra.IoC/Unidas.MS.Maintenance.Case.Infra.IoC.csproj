@@ -7,7 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
+    <ProjectReference Include="..\MaintenanceCase.Application\Unidas.MS.Maintenance.Case.Application.csproj" />
+    <ProjectReference Include="..\MaintenanceCase.Infra\MaintenanceCase.Infra.csproj" />
   </ItemGroup>
 
 </Project>
